@@ -10,6 +10,7 @@
   $playerPrevious = $("#playerPrevious");
   $result = $("#result");
 
+  console.log('blah');
 
 
   function shuffle(array) {
