@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blackjack</title>
+  <style>
+    #previous {
+      font-size: 12px;
+      color: #ccc;
+      background: #333;
+      max-width: 75%;
+      border: 1px solid black;
+    }
+
+    img {
+      width: 70px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div id="dealer">
+    <h1 id="dealerh1"></h1>
+  </div>
+  <div id="player">
+    <h1 id="playerh1"></h1>
+  </div>
+  <h1 id="bankroll"></h1>
+
+  <div id="previous">
+    <h1>Last Hand:</h1>
+    <div id="dealerPrevious"></div>
+    <div id="playerPrevious"></div>
+    <h1 id="result"></h1>
+  </div>
+  <button id="hit">HIT</button>
+  <button id="stand">STAND</button>
+  <button id="startOver">Start Over</button>
+  <script src="jquery.min.js"></script>
+  <script src="lodash.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
